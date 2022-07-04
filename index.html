@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>PRJECTOR - ONLINE COURSES LANDING PAGE</title>
+</head>
+<body>
+
+	<div class="wrapper">
+<header class="header-elem-professium">
+	<div class="container_professium">
+		<div class="header_professium">
+			<div class="header_part1">
+				<div class="header_logo">
+					<a href="/">
+						<img src="../assets/build/img/professium/logo-white.svg" alt="logo"
+						width="246" height="30">
+					</a>
+				</div>
+				<a href="#" style="opacity:0;pointer-events:none">
+				<button class="choose_faculty">
+				
+				</button>
+				</a>
+			</div>
+			<div class="header_part2">
+				<nav class="header_navigation">
+					<div class="burger">
+						<div class="burger_row1"></div>
+						<div class="burger_row2"></div>
+					</div>
+					<ul class="menu_list">
+						<li class="menu_list_item">
+							<a href="/course">Courses</a>
+						</li>
+						<li class="menu_list_item">
+							<a href="/library">Library</a>
+						</li>
+						<li class="menu_list_item">
+							<a href="/mentor">Mentoring</a>
+						</li>
+						<li class="menu_list_item">
+							<a href="#contacts">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header_login"></div>
+			</div>
+		</div>
+	
+		<section id="pre-header-courses">
+			<div class="content">
+				<span class="pm-head-title">Education & The future</span>
+				<div class="ccontaner header_title">
+					<ul class="llist dddd">
+						<li class="iitem">
+							Learn
+							<img class="arrow1" src="../assets/images/pmarrow.svg" alt="arrow">
+							Know
+						</li>
+						<li class="iitem">
+							Duty 
+							<img class="arrow1" src="../assets/images/pmarrow.svg" alt="arrow">
+							Choice 
+						</li>
+						<li class="iitem">
+							Theory 
+							<img class="arrow1" src="../assets/images/pmarrow.svg" alt="arrow">
+							Wholesale 
+						</li>
+						<li class="iitem">
+							Lectures 
+							<img class="arrow1" src="../assets/images/pmarrow.svg" alt="arrow">
+							Practice
+						</li>
+					</ul>
+				</div>
+			</div>						
+		</section>	
+				
+		<style>
+			
+			@media (max-width: 767px) {
+                .container_professium {
+                    padding: 0 20px;
+                }
+            }
+
+            .ccontent
+            {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              /* transform: translate(-50%, -50%); */
+              height: 130px;
+              overflow: hidden;
+              font-size: 35px;
+              line-height: 40px;
+              color: #ecf0f1;
+            }
+
+            .cccontent
+            {
+              margin-bottom: -30px;
+            }
+
+            @media (min-width: 1024px)
+            {
+              .cccontent
+              {
+                margin-bottom: 0;
+                padding-bottom: 30px;
+              }
+            }
+
+            .ccontainer
+            {
+              font-weight: 600;
+              overflow: hidden;
+              height: 44px;
+            }
+
+            @media (min-width: 768px)
+            {
+              .ccontainer
+              {
+                height: 80px;
+              }
+            }
+
+            @media (min-width: 1024px)
+            {
+              .ccontainer
+              {
+                height: 110px;
+              }
+            }
+
+            @media (min-width: 1400px)
+            {
+              .ccontainer
+              {
+                height: 140px;
+              }
+            }
+
+            .ddd
+            {
+              animation-name: slide1;
+            }
+
+            .llist
+            {
+              margin-top: 0;
+              /* padding-left: 110px; */
+              text-align: left;
+              list-style: none;
+              animation-name: change;
+              animation-duration: 12s;
+              animation-iteration-count: infinite;
+            }
+
+            .pm-head-title
+            {
+              display: block;
+              margin-top: 50px;
+              color: black;
+              font-size: 36px;
+              font-weight: 400;
+              line-height: 44px;
+            }
+
+            @media (min-width: 768px)
+            {
+              .pm-head-title
+              {
+                font-size: 72px;
+                line-height: 80px;
+              }
+            }
+
+            @media (min-width: 1024px)
+            {
+              .pm-head-title
+              {
+                margin-top: 110px;
+                font-size: 100px;
+                line-height: 110px;
+              }
+            }
+
+            @media (min-width: 1400px)
+            {
+              .pm-head-title
+              {
+                font-size: 130px;
+                line-height: 140px;
+              }
+            }
+
+            .iitem
+            {
+              margin: 0;
+              color: #fff;
+              letter-spacing: -0.03em;
+              font-size: 36px;
+              font-weight: 400;
+              line-height: 44px;
+              white-space: nowrap;
+            }
+
+            @media (min-width: 768px)
+            {
+              .iitem
+              {
+                font-size: 73px;
+                line-height: 80px;
+              }
+            }
+
+            @media (min-width: 1024px)
+            {
+              .iitem
+              {
+                font-size: 100px;
+                line-height: 110px;
+              }
+            }
+
+            @media (min-width: 1400px)
+            {
+              .iitem
+              {
+                font-size: 130px;
+                line-height: 140px;
+              }
+            }
+
+            @keyframes opacity
+            {
+
+              0%,
+              100%
+              {
+                opacity: 0;
+              }
+
+              50%
+              {
+                opacity: 1;
+              }
+            }
+
+            @keyframes change
+            {
+
+              0%,
+              12.66%,
+              100%
+              {
+                transform: translate3d(0, 0, 0);
+              }
+
+              16.66%,
+              29.32%
+              {
+                transform: translate3d(0, -25%, 0);
+              }
+
+              33.32%,
+              45.98%
+              {
+                transform: translate3d(0, -50%, 0);
+              }
+
+              49.98%,
+              62.64%
+              {
+                transform: translate3d(0, -75%, 0);
+              }
+
+              66.64%,
+              79.3%
+              {
+                transform: translate3d(0, -50%, 0);
+              }
+
+              83.3%,
+              95.96%
+              {
+                transform: translate3d(0, -25%, 0);
+              }
+            }
+
+            .arrow1
+            {
+              /* animation: slide1 1s ease-in-out 10; */
+              width: 36px;
+              height: 24px;
+              margin-left: 5px;
+              vertical-align: middle;
+              object-fit: cover;
+              object-position: 100% 50%;
+            }
+
+            @media (min-width: 768px)
+            {
+              .arrow1
+              {
+                margin-left: 10px;
+                width: 64px;
+                height: 42px;
+              }
+            }
+
+            @media (min-width: 1024px)
+            {
+              .arrow1
+              {
+                width: 128px;
+                height: 62px;
+                margin-left: 15px;
+              }
+            }
+
+            @media (min-width: 1400px)
+            {
+              .arrow1
+              {
+                width: 178px;
+                height: 80px;
+              }
+            }
+
+            @keyframes slide1
+            {
+
+              0%,
+              100%
+              {
+                transform: translate(0, 0);
+              }
+
+              50%
+              {
+                transform: translate(30px, 0);
+              }
+            }
+
+          
+		</style>
+	</div>
+</header><div class="container_professium">
+	<div class="main_container">
+		
+		<div class="main_filters">
+			<div class="main_filter_item faculty">
+				<ul class="faculty_list">
+					<li data-num ="0" class="faculty_list_item active fill">
+						<p class="facaulty_list_name">All faculties</p>
+						<p class="faculty_list_count">130</p>
+					</li>
+					<li data-num ="1" class="faculty_list_item fill">
+						<p class="faculty_list_name">Advertising</p>
+						<p class="faculty_list_count">8</p>
+					</li>
+					<li data-num ="2" class="faculty_list_item fill">
+						<p class="faculty_list_name">Data & Data Science</p>
+						<p class="faculty_list_count">13</p>
+					</li>
+					<li data-num ="3" class="faculty_list_item fill">
+						<p class="faculty_list_name">Graphics</p>
+						<p class="faculty_list_count">21</p>
+					</li>
+					<li data-num ="4" class="faculty_list_item fill">
+						<p class="faculty_list_name">Humanitarium</p>
+						<p class="faculty_list_count">14</p>
+					</li>
+					<li data-num ="5" class="faculty_list_item fill">
+						<p class="faculty_list_name">Interface Design</p>
+						<p class="faculty_list_count">23</p>
+					</li>
+					<li data-num ="6" class="faculty_list_item fill">
+						<p class="faculty_list_name">Management</p>
+						<p class="faculty_list_count">20</p>
+					</li>
+					<li data-num ="7" class="faculty_list_item fill">
+						<p class="faculty_list_name">Marketing</p>
+						<p class="faculty_list_count">15</p>
+					</li>
+					<li data-num ="8" class="faculty_list_item fill">
+						<p class="faculty_list_name">Photo & Video</p>
+						<p class="faculty_list_count"></p>
+					</li>
+					<li data-num ="9" class="faculty_list_item fill">
+						<p class="faculty_list_name">Visual Arts</p>
+						<p class="faculty_list_count">18</p>
+					</li>
+					<li class="faculty_list_item" style="display:none;">
+						<p class="faculty_list_name"></p>
+						<p class="faculty_list_count"></p>				
+					</li>
+				</ul>
+			</div>
+			
+			<div class="main_filter_item level">
+				<p class="title">Level</p>
+	
+				<div class="main_filter_item_content fill">
+					<input type="radio" id="level-all" name="level" value="/course" checked>
+					<label for="level-all">
+						<p class="main_filter_item_name">Any</p>
+						<p class="main_filter_item_count">12</p>
+					</label>
+				</div>
+	
+				<div class="main_filter_item_content fill">
+					<input type="radio" id="level-beginner" name="level"
+					value="/course?level=beginner">
+					<label for="level-beginner">
+						<p class="main_filter_item_name">Beginners</p>
+						<p class="main_filter_item_count">05</p>
+					</label>
+				</div>
+	
+				<div class="main_filter_item_content fill">
+					<input type="radio" id="level-specialist" name="level"
+					value="/course?level=specialist">
+					<label for="level-specialist">
+						<p class="main_filter_item_name">
+							Specialists
+						</p>
+						<p class="main_filter_item_count">
+							07
+						</p>
+					</label>
+				</div>	
+			</div>
+	
+			<div class="main_filter_item study_type">
+				<p class="title">Learning Format</p>
+				<div class="main_filter_item_content fill">
+					<input type="radio" id="type-all" name="type" value="/course" checked>
+					<label for="type-all">
+						<p class="main_filter_item_name">All formats</p>
+						<p class="main_filter_item_count">20</p>
+					</label>
+				</div>
+				<div class="main_filter_item_content fill">
+					<input type="radio" id="type-professium" name="type"
+					value="/course?type=professium">
+					<label for="type-professium">
+						<p class="main_filter_item_name">Professions</p>
+						<p class="main_filter_item_count">04</p>
+					</label>
+				</div>
+				<div class="main_filter_item_content fill">
+					<input type="radio" id="type-course" name="type"
+					value="/course?type=course">
+					<label for="type-course">
+						<p class="main_filter_item_name">Courses</p>
+						<p class="main_filter_item_count">08</p>
+					</label>
+				</div>			
+				<div class="main_filter_item_content fill">
+					<input type="radio" id="type-workshop" name="type"
+					value="/course?type=workshop">
+					<label for="type-workshop">
+						<p class="main_filter_item_name">Intensives</p>
+						<p class="main_filter_item_count">04</p>
+					</label>
+				</div>
+				<div class="main_filter_item_content fill">
+					<input type="radio" id="type-video" name="type"
+					value="/course?type=video">
+					<label for="type-video">
+						<p class="main_filter_item_name">Video courses</p>
+						<p class="main_filter_item_count">02</p>
+					</label>
+				</div>
+	
+			</div>	
+		</div>
+				
+		<div class="main_content">
+			
+			<div class="courses_section">
+				<div class="courses_section_title">
+					Professiums
+				</div>
+				<section id="professiums">
+					<div class="professiums_list">
+	
+						<div class="professiums_item">
+							<a href="#!" class="professiums_item_link"></a>
+							<div class="professiums_item_bg">
+								<picture>
+									<img src="../assets/images/co_01.jpg" alt="img"
+									>
+								</picture>
+							</div>
+							<div class="professiums_item_header">
+								<h3 class="professiums_item_title">
+									UX/UI Design
+									<br>
+									Professium
+								</h3>
+								<p class="professiums_item_level">Level A</p>
+							</div>
+							<div class="professiums_item_footer">
+								<div class="professiums_item_months">10 months</div>
+								<div class="professiums_item_modules">
+									4 moduls
+								</div>
+							</div>
+						</div>
+	
+						<div class="professiums_item">
+							<a href="#!" class="professiums_item_link"></a>
+							<div class="professiums_item_bg">
+								<picture>
+									<img src="../assets/images/co_02.jpg" alt="img"
+									>
+								</picture>
+							</div>
+							<div class="professiums_item_header">
+								<h3 class="professiums_item_title">
+									Product Managment
+									<br>
+									Professium
+								</h3>
+								<p class="professiums_item_level">Level B</p>
+							</div>
+							<div class="professiums_item_footer">
+								<div class="professiums_item_months">12 months</div>
+								<div class="professiums_item_modules">
+									5 moduls
+								</div>
+							</div>
+						</div>
+	
+						<div class="professiums_item">
+							<a href="#!" class="professiums_item_link"></a>
+							<div class="professiums_item_bg">
+								<picture>
+									<img src="../assets/images/co_03.jpg" alt="img"
+									>
+								</picture>
+							</div>
+							<div class="professiums_item_header">
+								<h3 class="professiums_item_title">
+									Product Managment
+									<br>
+									Professium
+								</h3>
+								<p class="professiums_item_level">Level B</p>
+							</div>
+							<div class="professiums_item_footer">
+								<div class="professiums_item_months">11 months</div>
+								<div class="professiums_item_modules">
+									4 moduls
+								</div>
+							</div>
+						</div>
+						
+						<div class="professiums_item">
+							<a href="#!" class="professiums_item_link"></a>
+							<div class="professiums_item_bg">
+								<picture>
+									<img src="../assets/images/co_04.jpg" alt="img"
+									>
+								</picture>
+							</div>
+							<div class="professiums_item_header">
+								<h3 class="professiums_item_title">
+									Animated Film Director
+									<br>
+									Professium
+								</h3>
+								<p class="professiums_item_level">Level B</p>
+							</div>
+							<div class="professiums_item_footer">
+								<div class="professiums_item_months">9 months</div>
+								<div class="professiums_item_modules">
+									3 moduls
+								</div>
+							</div>
+						</div>	
+						
+					</div>
+				</section>
+				<div class="professiums_main_more">
+					<a href="#!" class="professiums_main_more_btn ">
+						Show more professions.
+					</a>
+				</div>
+			</div>
+						
+			<div class="courses_section ">
+				<!-- Заголовок раздела -->
+				<div class="courses_section_title">
+					Courses
+				</div>
+				<!-- Список курсов -->
+				<section class="courses_list">
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+	
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+	
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>
+
+					
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / month
+							</div>
+						</div>
+					</a>					
+					
+				</section>
+				<!-- Кнопка показать больше курсов -->
+				<div class="courses_more">
+					<a href="#!" class="courses_more_btn">Show more courses</a>
+				</div>
+			</div>	
+			
+			<div class="courses_section intensive_courses">
+				<div class="courses_section_title">
+					Intensives
+				</div>
+				<section class="courses_list">
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / months
+							</div>
+						</div>
+					</a>
+
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / months
+							</div>
+						</div>
+					</a>
+
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / months
+							</div>
+						</div>
+					</a>
+
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / months
+							</div>
+						</div>
+					</a>
+
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / months
+							</div>
+						</div>
+					</a>
+
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / months
+							</div>
+						</div>
+					</a>
+
+					<a href="#!" class="courses_list_item">
+						<h4 class="courses_item_title">Web Design Beginning</h4>
+						<div class="courses_item_bottom">
+							<div class="courses_item_time">
+								<div class="courses_item_date">
+									11.07.2022
+								</div>
+								<div class="courses_item_sep">
+									<svg class="sep-lg" width="27" height="27">
+										<rect width="35.9912" height="1.89043" transform="matrix(0.707107 -0.707106 0.707107 0.707106 0.138672 25.6211)" fill="#101014"></rect>
+									</svg>
+									<svg class="sep-sm" width="13" height="13">
+										<line x1="0.646447" y1="12.6464" x2="12.6464" y2="0.646446" stroke="black"></line>
+									</svg>
+								</div>
+								<div class="courses_item_months">
+									2 months
+								</div>
+							</div>
+							<div class="courses_item_price">
+								20$ / months
+							</div>
+						</div>
+					</a>					
+				</section>
+			</div>	
+		</div>
+		
+	</div>
+</div>
+
+<section id="alumni">
+		<div class="container_professium">
+			<h2 class="alumni_title">
+				<span>Reviews about us</span>
+				<br>
+				we are proud of our graduates
+			</h2>
+		</div>
+
+		<div class="alumni_list">
+			<div class="alumni_list__slider">
+				<div class="alumni_list__slider-track">
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+					<a href="#!" rel="nofollow" target="_blank"
+					class="alumni_list__slide alumni_item">
+						<img src="../assets/images/graduate1.jpg" alt="img"
+						class="alumni_item_img">
+						<div class="alumni_item_about">
+							<span>Dr. Watson</span>
+							<br>
+							short review
+						</div>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	
+	</section><section id="why-projector">
+	<div class="container_professium">
+		<h2 class="why-projector_title">
+			<span>Why us.</span>
+			<br>
+			That's why they choose us
+		</h2>
+
+		<div class="why-projector_list">
+			
+			<div class="why-projector_list_item">
+				<img src="../assets/images/pm_01.jpg" alt="img"
+				class="why-projector_item_image" width="380px" height="200px">
+				<div class="why-projector_item_title">
+					<div class="why-projector_item_title_number">
+						01 /
+					</div>
+					<div class="why-projector_item_title_text">
+						Your advantage.
+					</div>
+				</div>
+			</div>			
+
+			<div class="why-projector_list_item">
+				<img src="../assets/images/pm_02.jpg" alt="img"
+				class="why-projector_item_image" width="380px" height="200px">
+				<div class="why-projector_item_title">
+					<div class="why-projector_item_title_number">
+						02 /
+					</div>
+					<div class="why-projector_item_title_text">
+						Your advantage.
+					</div>
+				</div>
+			</div>			
+
+			<div class="why-projector_list_item">
+				<img src="../assets/images/pm_03.jpg" alt="img"
+				class="why-projector_item_image" width="380px" height="200px">
+				<div class="why-projector_item_title">
+					<div class="why-projector_item_title_number">
+						03 /
+					</div>
+					<div class="why-projector_item_title_text">
+						Your advantage.
+					</div>
+				</div>
+			</div>			
+
+			<div class="why-projector_list_item">
+				<img src="../assets/images/pm_04.jpg" alt="img"
+				class="why-projector_item_image" width="380px" height="200px">
+				<div class="why-projector_item_title">
+					<div class="why-projector_item_title_number">
+						04 /
+					</div>
+					<div class="why-projector_item_title_text">
+						Your advantage.
+					</div>
+				</div>
+			</div>			
+
+			<div class="why-projector_list_item">
+				<img src="../assets/images/pm_05.jpg" alt="img"
+				class="why-projector_item_image" width="380px" height="200px">
+				<div class="why-projector_item_title">
+					<div class="why-projector_item_title_number">
+						05 / 
+					</div>
+					<div class="why-projector_item_title_text">
+						Your advantage.
+					</div>
+				</div>
+			</div>
+
+			<div class="why-projector_list_item">
+				<img src="../assets/images/pm_06.jpg" alt="img"
+				class="why-projector_item_image" width="380px" height="200px">
+				<div class="why-projector_item_title">
+					<div class="why-projector_item_title_number">
+						06 /
+					</div>
+					<div class="why-projector_item_title_text">
+						Your advantage.
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section><section id="write-us">
+	<div class="container_professium">
+		<h2 class="write-us_title">
+			<span>Write to us</span>
+			<br>
+			About education or cooperation
+		</h2>
+		
+		
+		<div class="write-us_list">
+			<div class="write-us_form">
+				<form method="post" novalidate>
+					
+					<div class="write-us_form_item">
+						<input id="request-name" type="text" name="request[name]"
+						placeholder="Name">
+					</div>
+
+					<div class="write-us_form_item">
+						<input id="request-email" type="email" name="request[email]"
+						placeholder="Email">
+					</div>
+
+					<div class="write-us_form_item">
+						<input id="request-text" type="text" name="request[text]"
+						placeholder="Write here">
+					</div>
+
+					<div class="write-us_form_item">
+						<button class="write-us_form_item_btn">
+							Send
+						</button>
+					</div>
+					
+				</form>
+			</div>
+
+			<div class="write-us_questions">
+
+				<img src="../assets/images/support_min.png" alt="manager"
+				class="write-us_questions_image" width="120" height="120">
+
+				<div class="write-us_questions_text">
+					<p class="write-us_questions_title"></p>
+					<p class="write-us_questions_title">
+						Have questions? Write to
+						<a href="mailto:yourmail@yourmail.com">yourmail@yourmail.com</a>
+						or call the number
+						<a href="tel:+3809900000000">+38(099)000-00-00</a>
+						.
+					</p>
+				</div>
+
+				<div class="write-us_questions_consult">
+					<a href="#!" rel="nofollow" target="_blank" class="write-us_questions_consult_btn">
+						consult me
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section><footer class="footer">
+	<div class="container_professium">
+		<div class="contacts_telephones">
+			<a href="tel:+380990000000">
+				<h3>+38(099)000-00-00</h3>
+			</a>
+			<a href="tel:+380990000000">
+				<h3>+38(099)000-00-00</h3>
+			</a>
+		</div>
+		<a href="mailto:hello@yourmail.com" class="contacts_mail">
+			<h3>
+				hello@yourmail.com
+			</h3>
+		</a>
+		<div class="social_buttons">
+			<a href="#!" rel="nofollow" target="_blank">
+				<button class="social_buttons_item">
+					Facebook
+				</button>			
+			</a>
+	
+			<a href="#!" rel="nofollow" target="_blank">
+				<button class="social_buttons_item">
+					Instagram
+				</button>			
+			</a>
+	
+			<a href="#!" rel="nofollow" target="_blank">
+				<button class="social_buttons_item">
+					Telegram
+				</button>			
+			</a>
+	
+			<a href="#!" rel="nofollow" target="_blank">
+				<button class="social_buttons_item">
+					Youtube
+				</button>			
+			</a>
+	
+			
+		</div>
+	</div>
+</footer>	</div>
+	
+	<script src="../js/main.js"></script>
+</body>
+</html>
